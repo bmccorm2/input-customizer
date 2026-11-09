@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.colemakmods.keyboardlayout.colemakdh</string>
+	<key>CFBundleName</key>
+	<string>Colemak DH</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.0</string>
+	<key>KLInfo_Colemak DH ANSI</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHANSI</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH ANSI - Wide</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHANSI-Wide</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH ANSI - Extended</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHANSI-Extended</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH ISO</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHISO</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH ISO - Extended</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHISO-Extended</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH Matrix</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHMatrix</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Colemak DH Matrix - Extended</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>io.github.colemakmods.keyboardlayout.colemakdh.keylayout.ColemakDHMatrix-Extended</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+</dict>
+</plist>

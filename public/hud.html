@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; cursor: default; }
+      body { display: flex; align-items: center; justify-content: center; }
+      #hud {
+        padding: 18px 28px; border-radius: 18px;
+        background: rgba(30, 30, 30, 0.82); color: #fff;
+        font: 600 26px -apple-system, system-ui, sans-serif; text-align: center;
+        -webkit-user-select: none; user-select: none;
+      }
+      #hud small { display: block; margin-top: 4px; font-size: 13px; font-weight: 400; opacity: 0.7; }
+    </style>
+  </head>
+  <body>
+    <div id="hud"></div>
+    <script>
+      window.showHud = (title, sub) => {
+        const el = document.getElementById("hud");
+        el.textContent = title;
+        const s = document.createElement("small");
+        s.textContent = sub;
+        el.appendChild(s);
+      };
+    </script>
+  </body>
+</html>

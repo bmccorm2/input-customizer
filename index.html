@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Customizer</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="row">
+        <div class="text">
+          <div class="label">Colemak DH ANSI</div>
+          <div class="msg" id="colemak-msg">…</div>
+        </div>
+        <label class="switch"><input type="checkbox" id="colemak" /><span></span></label>
+      </section>
+
+      <section class="row">
+        <div class="text">
+          <div class="label">Swap Caps Lock ↔ Backspace</div>
+          <div class="msg" id="caps-msg">…</div>
+        </div>
+        <label class="switch"><input type="checkbox" id="caps" /><span></span></label>
+      </section>
+
+      <section class="row">
+        <div class="text">
+          <div class="label">Lock key → Sleep</div>
+          <div class="msg" id="lock-msg">…</div>
+          <div class="msg" id="lock-trigger"></div>
+          <div class="buttons">
+            <button id="learn">Learn key</button>
+            <button id="ax" hidden>Open Accessibility settings</button>
+          </div>
+        </div>
+        <label class="switch"><input type="checkbox" id="lock" /><span></span></label>
+      </section>
+
+      <section class="row">
+        <div class="text">
+          <div class="label">Mouse scroll speed</div>
+          <div class="msg" id="scroll-msg">…</div>
+        </div>
+        <div class="slider">
+          <input type="range" id="scroll" min="0" step="1" />
+          <span id="scroll-val"></span>
+          <button id="scroll-reset">Reset</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
